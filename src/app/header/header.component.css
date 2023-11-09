@@ -1,0 +1,26 @@
+/* ... Estilos anteriores ... */
+
+.profile-section {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section .profile-info {
+  text-align: center;
+}
+
+.profile-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-section img {
+  border-radius: 50%; /* Esto redondeará la foto, ajusta el valor según lo desees */
+  width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin-bottom: 20px;
+}

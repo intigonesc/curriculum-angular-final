@@ -1,0 +1,27 @@
+{
+    "personal": [
+        {
+            "nombre": "Inti",
+            "apellido": "Mociulsky Gonzalez",
+            "edad": 18,
+            "nacionalidad": "Argentina",
+            "fechaNacimiento": "03/01/2005",
+            "email": "flexter31@gmail.com",
+            "whatsapp": "+542945 331917"
+
+
+        },
+        {
+            "primaria": "Escuela Nº 76",
+            "secundaria": "Escuela Nº 713"
+           
+        },
+        
+        {
+            "experienciaProgramas": ["Filmora", "Audacity", "Photoshop."],
+            "marketing": ["copywriting","creación y administracion de E-Commerce"],
+            "webpage": ["WordPress","landing page"]
+           
+        }
+    ]
+}
