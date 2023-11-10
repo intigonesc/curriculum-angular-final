@@ -1,12 +1,8 @@
  <section class="section">
         <h2>Experiencia</h2>
         <div class="job">
-            <h3> programas </h3>
-            <p>{{personal.experienciaProgramas[0]}}, {{personal.experienciaProgramas[1]}}, {{personal.experienciaProgramas[2]}}</p>
-            <h3> Marketing E-Commerce</h3>
-            <p>{{personal.marketing[0]}}, {{personal.marketing[1]}}</p>
-            <h3>Paginas Web</h3>
-            <p>{{personal.webpage[0]}}, {{personal.webpage[1]}} </p>
+            <li *ngFor="let item of datos">{{item.habilidad}}</li>
+
         </div>
 
 

@@ -10,15 +10,16 @@ import { CvService } from '../servicios/cv.service';
 
   export class ContactoComponent implements OnInit {
 
-    personal: any;
+    datos: any;
+
     
     constructor(private cvService:CvService){}
       ngOnInit(): void {
         this.cvService.obtenerEducacion().subscribe(
     
           data => {
-            console.log(data)
-          this.personal=data["personal"][0]
+            console.log("contacto")
+          this.datos=data["contacto"]
           }
         )
       

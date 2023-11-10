@@ -11,7 +11,7 @@ import { CvService } from '../servicios/cv.service';
 
 export class EstudiosComponent implements OnInit {
 
-  personal: any;
+  datos: any;
   
   constructor(private cvService:CvService){}
     ngOnInit(): void {
@@ -19,7 +19,7 @@ export class EstudiosComponent implements OnInit {
   
         data => {
           console.log(data)
-        this.personal=data["personal"][1]
+        this.datos=data["estudios"];
         }
       )
     

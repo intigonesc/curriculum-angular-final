@@ -2,8 +2,7 @@
         <section class="section">
             <h2>Datos de Contacto</h2>
             <div class="job">
-                <h3>Email: {{personal.email}} </h3>
-                <p>WhatsApp: {{personal.whatsapp}}</p>
+                <li *ngFor="let item of datos">{{item.informacionContacto}}</li>
             </div>
    
 

@@ -3,10 +3,7 @@
     <section class="section">
         <h2>Estudios</h2>
         <div class="job">
-            <h3> Estudios Prmarios </h3>
-            <p>{{personal.primaria}} </p>
-            <h3> Estudios Secundarios:</h3>
-            <p>{{personal.secundaria}}</p>
+            <li *ngFor="let item of datos">{{item.estudios}}</li>
 
         </div>
 
